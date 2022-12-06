@@ -108,5 +108,5 @@ addEventHandler("onPlayerSpawn", root, function()
         end
         setElementModel(source,table.model)
     end
-
+    wasted_player[source] = nil
 end)
